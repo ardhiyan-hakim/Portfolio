@@ -1,0 +1,41 @@
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+    height: inherit;
+
+    span {
+      font-weight: bold;
+    }
+
+    .social {
+      display: flex;
+      gap: 16px;
+
+      a {
+        display: flex;
+        place-content: center;
+      }
+
+      .facebook {
+        background-color: var(--contrast-color);
+        border-radius: 100%;
+      }
+
+      .github {
+        background-color: var(--contrast-color);
+        border-radius: 100%;
+      }
+
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+}
