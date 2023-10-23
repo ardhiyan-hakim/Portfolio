@@ -1,0 +1,30 @@
+:root {
+  --main-color: #001524;
+  --contrast-color: lightgray;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--contrast-color);
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
