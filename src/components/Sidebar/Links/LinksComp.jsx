@@ -1,5 +1,6 @@
 const LinksComp = () => {
   const items = ["Homepage", "Services", "Skills", "About", "Contacts"];
+
   return (
     <div className="links">
       {items.map((item) => (

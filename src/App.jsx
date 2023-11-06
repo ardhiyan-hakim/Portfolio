@@ -4,13 +4,13 @@ import NavbarComponent from "./components/Navbar/NavbarComp";
 const App = () => {
   return (
     <>
-      <section>
+      <section id="Homepage">
         <NavbarComponent />
       </section>
-      <section>Parallax</section>
-      <section>Skills</section>
-      <section>Parallax</section>
-      <section>Portfolio</section>
+      <section id="Services">Parallax</section>
+      <section id="Skills">Skills</section>
+      <section id="About">Parallax</section>
+      <section id="Contacts">Portfolio</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
       <section>Portfolio</section>

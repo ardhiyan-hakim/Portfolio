@@ -1,5 +1,13 @@
 const ToggleButtonComp = ({ setOpen }) => {
-  return <button onClick={() => setOpen((prev) => !prev)}>Button</button>;
+  return (
+    <button
+      onClick={() => {
+        setOpen((prev) => !prev);
+      }}
+    >
+      Button
+    </button>
+  );
 };
 
 export default ToggleButtonComp;
