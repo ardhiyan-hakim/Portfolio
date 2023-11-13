@@ -1,0 +1,38 @@
+button {
+  outline: none;
+  border: none;
+}
+
+.button-container {
+  span {
+    background: var(--main-color);
+    width: 50%;
+    height: 4px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.35s;
+  }
+
+  span:nth-child(1) {
+    transform: translate(-50%, -10px);
+  }
+  span:nth-child(3) {
+    transform: translate(-50%, 6px);
+  }
+}
+
+.button-container.active {
+  span:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  span:nth-child(2) {
+    width: 0;
+  }
+  span:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

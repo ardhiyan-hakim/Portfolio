@@ -12,6 +12,7 @@ const SidebarComp = () => {
     open: {
       clipPath: "circle(1200px at 50px 50px)",
       transition: {
+        delay: 0.15,
         type: "spring",
         stiffness: 20,
       },
@@ -19,9 +20,9 @@ const SidebarComp = () => {
     closed: {
       clipPath: "circle(30px at 50px 50px)",
       transition: {
-        delay: 0.3,
+        delay: 0.15,
         type: "spring",
-        stiffness: 400,
+        stiffness: 350,
         damping: 40,
       },
     },
